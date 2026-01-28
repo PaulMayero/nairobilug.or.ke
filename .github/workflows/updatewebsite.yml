@@ -33,7 +33,7 @@ jobs:
           publish_dir: ./output
 
   deploy:
-    uses: "PaulMayero/nairobilug.or.ke/.github/workflows/github_pages.yml"
+    uses: "PaulMayero/nairobilug.or.ke/.github/workflows/updatewebsite.yml@building-nailug-website"
     permissions:
       contents: "read"
       pages: "write"
