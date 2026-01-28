@@ -41,7 +41,8 @@ EXTRA_PATH_METADATA = {
 
 # http://docs.getpelican.com/en/stable/plugins.html#how-to-use-plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['pelican-bootstrapify']
+# PLUGINS = ['pelican-bootstrapify']
+PLUGINS = []
 
 BOOTSTRAPIFY = {
     'table': ['table', 'table-striped', 'table-hover'],
@@ -52,6 +53,7 @@ BOOTSTRAPIFY = {
 # Theme settings --------------------------------------------------------------
 
 THEME = 'themes/pelican-alchemy/alchemy'
+
 
 SITESUBTITLE = 'A lively community of GNU/Linux enthusiasts'
 SITEIMAGE = '/images/profile.png'
