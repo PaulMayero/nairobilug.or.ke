@@ -8,23 +8,23 @@
 
   <title>  Using systemd Timers to Renew Let’s Encrypt Certificates | Nairobi GNU/Linux Users Group
 </title>
-  <link rel="canonical" href="https://nairobilug.org/2016/07/using-systemd-timers-to-renew-lets-encrypt-certificates.html">
+  <link rel="canonical" href="https://www.nairobilug.org/2016/07/using-systemd-timers-to-renew-lets-encrypt-certificates.html">
 
-    <link rel="apple-touch-icon" href="https://nairobilug.org/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" type="image/png" href="https://nairobilug.org/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://nairobilug.org/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="https://nairobilug.org/manifest.json">
+    <link rel="apple-touch-icon" href="https://www.nairobilug.org/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="https://www.nairobilug.org/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.nairobilug.org/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://www.nairobilug.org/manifest.json">
     <meta name="theme-color" content="#333333">
 
-  <link rel="stylesheet" href="https://nairobilug.org/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://nairobilug.org/theme/css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://nairobilug.org/theme/css/pygments/monokai.min.css">
-  <link rel="stylesheet" href="https://nairobilug.org/theme/css/theme.css">
+  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/pygments/monokai.min.css">
+  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/theme.css">
 
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
-        href="https://nairobilug.org/feeds/all.atom.xml">
+        href="https://www.nairobilug.org/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://nairobilug.org/feeds/linux.atom.xml">  
+        href="https://www.nairobilug.org/feeds/linux.atom.xml">  
   <meta name="description" content="Automating the Let's Encrypt TLS certificate renewal process using systemd timers on GNU/Linux is easier and more flexible than using cron.">
 
 
@@ -35,24 +35,24 @@
     <div class="container">
 <div class="row">
     <div class="col-sm-4">
-      <a href="https://nairobilug.org/">
-        <img class="img-fluid rounded" src=https://nairobilug.org/images/profile.png alt="Nairobi GNU/Linux Users Group">
+      <a href="https://www.nairobilug.org/">
+        <img class="img-fluid rounded" src=https://www.nairobilug.org/images/profile.png alt="Nairobi GNU/Linux Users Group">
       </a>
     </div>
   <div class="col-sm-8">
-    <h1 class="title"><a href="https://nairobilug.org/">Nairobi GNU/Linux Users Group</a></h1>
+    <h1 class="title"><a href="https://www.nairobilug.org/">Nairobi GNU/Linux Users Group</a></h1>
       <p class="text-muted">A lively community of GNU/Linux enthusiasts</p>
       <ul class="list-inline">
           <li class="list-inline-item"><a href="https://web.libera.chat/?channels=#nairobilug" target="_blank">IRC</a></li>
               <li class="list-inline-item text-muted">|</li>
-            <li class="list-inline-item"><a href="https://nairobilug.org/pages/about-us.html">About Us</a></li>
-            <li class="list-inline-item"><a href="https://nairobilug.org/pages/code-of-conduct.html">Code of Conduct</a></li>
-            <li class="list-inline-item"><a href="https://nairobilug.org/pages/contact.html">Contact</a></li>
-            <li class="list-inline-item"><a href="https://nairobilug.org/pages/mailing-list.html">Mailing List</a></li>
-            <li class="list-inline-item"><a href="https://nairobilug.org/pages/meetups.html">Meetups</a></li>
-            <li class="list-inline-item"><a href="https://nairobilug.org/pages/software.html">Software</a></li>
+            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/about-us.html">About Us</a></li>
+            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/code-of-conduct.html">Code of Conduct</a></li>
+            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/contact.html">Contact</a></li>
+            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/mailing-list.html">Mailing List</a></li>
+            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/meetups.html">Meetups</a></li>
+            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/software.html">Software</a></li>
             <li class=" list-inline-item text-muted">|</li>
-          <li class="list-inline-item"><a class="fas fa-rss" href="https://nairobilug.org/feeds/all.atom.xml" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="https://www.nairobilug.org/feeds/all.atom.xml" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/nairobilug" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/nairobilug" target="_blank"></a></li>
       </ul>
@@ -74,19 +74,19 @@
         </li>
         <li class="list-inline-item">
           <i class="fas fa-folder-open"></i>
-          <a href="https://nairobilug.org/category/linux.html">Linux</a>
+          <a href="https://www.nairobilug.org/category/linux.html">Linux</a>
         </li>
           <li class="list-inline-item">
             <i class="fas fa-user"></i>
-              <a href="https://nairobilug.org/author/alan-orth.html">Alan Orth</a>          </li>
+              <a href="https://www.nairobilug.org/author/alan-orth.html">Alan Orth</a>          </li>
           <li class="list-inline-item">
             <i class="fas fa-tag"></i>
-              <a href="https://nairobilug.org/tag/lets-encrypt.html">#Let's Encrypt</a>,               <a href="https://nairobilug.org/tag/systemd.html">#systemd</a>,               <a href="https://nairobilug.org/tag/security.html">#Security</a>          </li>
+              <a href="https://www.nairobilug.org/tag/lets-encrypt.html">#Let's Encrypt</a>,               <a href="https://www.nairobilug.org/tag/systemd.html">#systemd</a>,               <a href="https://www.nairobilug.org/tag/security.html">#Security</a>          </li>
       </ul>
     </header>
     <div class="content">
       <p>This is a quick blog post to share the systemd timers that I use to automate the renewal of my <a href="https://letsencrypt.org">Let's Encrypt</a> certificates. I prefer <a href="https://nairobilug.or.ke/2015/06/cron-systemd-timers.html">systemd timers to cron jobs</a> for task scheduling because they are more flexible and easier to debug. I assume that you know what Let's Encrypt is and that you already have some certificates. If not, I recommend that you check out <a href="https://certbot.eff.org">Certbot</a> (the official reference client) and get some.</p>
-<p><a href="https://letsencrypt.org/" title="Let's Encrypt homepage"><img alt="Let's Encrypt logo" src="https://nairobilug.org/images/letsencrypt-systemd-timers/lets-encrypt.png"></a></p>
+<p><a href="https://letsencrypt.org/" title="Let's Encrypt homepage"><img alt="Let's Encrypt logo" src="https://www.nairobilug.org/images/letsencrypt-systemd-timers/lets-encrypt.png"></a></p>
 <p>Because Let's Encrypt issues <abbr title="Transport Layer Security">TLS</abbr> certificates with much <a href="https://letsencrypt.org/2015/11/09/why-90-days.html">shorter lifetimes</a> (currently ninety days) than traditional certificate authorities, they expect you to reduce the burden of the issuance and renewal processes by performing them programmatically and automating them.</p>
 <h2>Check Early, Check Often</h2>
 <p>Your certificates are good for ninety days, but checking them for renewal on a daily or weekly basis allows for some margin of error in case of server downtime, network interruptions, beach holidays, etc. In the future Let's Encrypt might use even shorter lifespans so it's good to get familiar with this automation now. You will need to create both the <code>service</code> and <code>timer</code> unit files below.</p>
@@ -146,7 +146,7 @@ $<span class="w"> </span>sudo<span class="w"> </span>journalctl<span class="w"> 
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = 'https://nairobilug.org/2016/07/using-systemd-timers-to-renew-lets-encrypt-certificates.html';
+      this.page.url = 'https://www.nairobilug.org/2016/07/using-systemd-timers-to-renew-lets-encrypt-certificates.html';
       this.page.identifier = 'using-systemd-timers-to-renew-lets-encrypt-certificates';
     };
     (function() {
@@ -167,10 +167,10 @@ $<span class="w"> </span>sudo<span class="w"> </span>journalctl<span class="w"> 
     <div class="container">
 <div class="row">
   <ul class="col-sm-6 list-inline">
-      <li class="list-inline-item"><a href="https://nairobilug.org/authors.html">Authors</a></li>
-    <li class="list-inline-item"><a href="https://nairobilug.org/archives.html">Archives</a></li>
-    <li class="list-inline-item"><a href="https://nairobilug.org/categories.html">Categories</a></li>
-      <li class="list-inline-item"><a href="https://nairobilug.org/tags.html">Tags</a></li>
+      <li class="list-inline-item"><a href="https://www.nairobilug.org/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://www.nairobilug.org/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://www.nairobilug.org/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://www.nairobilug.org/tags.html">Tags</a></li>
   </ul>
   <p class="col-sm-6 text-sm-right text-muted">
     Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
