@@ -8,23 +8,23 @@
 
   <title>  Building a Pentest Lab With Docker | Nairobi GNU/Linux Users Group
 </title>
-  <link rel="canonical" href="https://www.nairobilug.org/2020/06/Lightweight lab entirely in Docker without Vmware or VirtualBox.html">
+  <link rel="canonical" href="https://nairobilug.org/2020/06/Lightweight lab entirely in Docker without Vmware or VirtualBox.html">
 
-    <link rel="apple-touch-icon" href="https://www.nairobilug.org/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" type="image/png" href="https://www.nairobilug.org/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.nairobilug.org/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="https://www.nairobilug.org/manifest.json">
+    <link rel="apple-touch-icon" href="https://nairobilug.org/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="https://nairobilug.org/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://nairobilug.org/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://nairobilug.org/manifest.json">
     <meta name="theme-color" content="#333333">
 
-  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/pygments/monokai.min.css">
-  <link rel="stylesheet" href="https://www.nairobilug.org/theme/css/theme.css">
+  <link rel="stylesheet" href="https://nairobilug.org/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://nairobilug.org/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://nairobilug.org/theme/css/pygments/monokai.min.css">
+  <link rel="stylesheet" href="https://nairobilug.org/theme/css/theme.css">
 
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
-        href="https://www.nairobilug.org/feeds/all.atom.xml">
+        href="https://nairobilug.org/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="https://www.nairobilug.org/feeds/linux.atom.xml">  
+        href="https://nairobilug.org/feeds/linux.atom.xml">  
   <meta name="description" content="Lightweight penetration testing lab inside docker GUI support">
 
 
@@ -35,24 +35,24 @@
     <div class="container">
 <div class="row">
     <div class="col-sm-4">
-      <a href="https://www.nairobilug.org/">
-        <img class="img-fluid rounded" src=https://www.nairobilug.org/images/profile.png alt="Nairobi GNU/Linux Users Group">
+      <a href="https://nairobilug.org/">
+        <img class="img-fluid rounded" src=https://nairobilug.org/images/profile.png alt="Nairobi GNU/Linux Users Group">
       </a>
     </div>
   <div class="col-sm-8">
-    <h1 class="title"><a href="https://www.nairobilug.org/">Nairobi GNU/Linux Users Group</a></h1>
+    <h1 class="title"><a href="https://nairobilug.org/">Nairobi GNU/Linux Users Group</a></h1>
       <p class="text-muted">A lively community of GNU/Linux enthusiasts</p>
       <ul class="list-inline">
           <li class="list-inline-item"><a href="https://web.libera.chat/?channels=#nairobilug" target="_blank">IRC</a></li>
               <li class="list-inline-item text-muted">|</li>
-            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/about-us.html">About Us</a></li>
-            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/code-of-conduct.html">Code of Conduct</a></li>
-            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/contact.html">Contact</a></li>
-            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/mailing-list.html">Mailing List</a></li>
-            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/meetups.html">Meetups</a></li>
-            <li class="list-inline-item"><a href="https://www.nairobilug.org/pages/software.html">Software</a></li>
+            <li class="list-inline-item"><a href="https://nairobilug.org/pages/about-us.html">About Us</a></li>
+            <li class="list-inline-item"><a href="https://nairobilug.org/pages/code-of-conduct.html">Code of Conduct</a></li>
+            <li class="list-inline-item"><a href="https://nairobilug.org/pages/contact.html">Contact</a></li>
+            <li class="list-inline-item"><a href="https://nairobilug.org/pages/mailing-list.html">Mailing List</a></li>
+            <li class="list-inline-item"><a href="https://nairobilug.org/pages/meetups.html">Meetups</a></li>
+            <li class="list-inline-item"><a href="https://nairobilug.org/pages/software.html">Software</a></li>
             <li class=" list-inline-item text-muted">|</li>
-          <li class="list-inline-item"><a class="fas fa-rss" href="https://www.nairobilug.org/feeds/all.atom.xml" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="https://nairobilug.org/feeds/all.atom.xml" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/nairobilug" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/nairobilug" target="_blank"></a></li>
       </ul>
@@ -74,19 +74,19 @@
         </li>
         <li class="list-inline-item">
           <i class="fas fa-folder-open"></i>
-          <a href="https://www.nairobilug.org/category/linux.html">Linux</a>
+          <a href="https://nairobilug.org/category/linux.html">Linux</a>
         </li>
           <li class="list-inline-item">
             <i class="fas fa-user"></i>
-              <a href="https://www.nairobilug.org/author/ian-muchina.html">Ian Muchina</a>          </li>
+              <a href="https://nairobilug.org/author/ian-muchina.html">Ian Muchina</a>          </li>
           <li class="list-inline-item">
             <i class="fas fa-tag"></i>
-              <a href="https://www.nairobilug.org/tag/docker.html">#Docker</a>,               <a href="https://www.nairobilug.org/tag/infosec.html">#Infosec</a>          </li>
+              <a href="https://nairobilug.org/tag/docker.html">#Docker</a>,               <a href="https://nairobilug.org/tag/infosec.html">#Infosec</a>          </li>
       </ul>
     </header>
     <div class="content">
       <h2>What is Docker?</h2>
-<p><img alt="Docker Logo" src="https://www.nairobilug.org/images/docker-pentest-lab/docker.svg">
+<p><img alt="Docker Logo" src="https://nairobilug.org/images/docker-pentest-lab/docker.svg">
 Docker is a container platform that is similar to a Hypervisor like Virtualbox. Docker uses less storage and RAM and are portable.</p>
 <p>Docker can run on: 
 - Linux
@@ -116,7 +116,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 <hr>
 <h2>Docker on Windows</h2>
 <p>To run docker in windows, install <a href="https://docs.docker.com/docker-for-windows/install/">Docker desktop</a>.</p>
-<p><img alt="Windows 10 Logo" src="https://www.nairobilug.org/images/docker-pentest-lab/windows10.svg"></p>
+<p><img alt="Windows 10 Logo" src="https://nairobilug.org/images/docker-pentest-lab/windows10.svg"></p>
 <p>Docker Desktop is an awesome app with a graphical interface. It can run Linux containers from windows. However, there's one major deal-breaker.</p>
 <p>Docker Desktop cannot co-exist with VirtualBox or VMware, because it requires Hyper-V to run Linux containers😤<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
 <blockquote>
@@ -137,7 +137,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 </code></pre></div>
 
 <p>If it completes successfully, you can follow along</p>
-<p><img alt="Server status" src="https://www.nairobilug.org/images/docker-pentest-lab/Server status-pana.svg"></p>
+<p><img alt="Server status" src="https://nairobilug.org/images/docker-pentest-lab/Server status-pana.svg"></p>
 <h2>The Network</h2>
 <p>The network will be called <code>vulnerable</code>. It will have a 10.0.0/24 subnet</p>
 <p>Create it with this command</p>
@@ -146,7 +146,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 
 <h2>Attacker Container</h2>
 <p>For this, I will use Parrot OS. It's docker images are better Kali Linux Images.</p>
-<p><img alt="Cyber photo" src="https://www.nairobilug.org/images/docker-pentest-lab/cyberr.svg"></p>
+<p><img alt="Cyber photo" src="https://nairobilug.org/images/docker-pentest-lab/cyberr.svg"></p>
 <p>First download the Parrot OS Docker image. This command will take a while depending on your internet connection. </p>
 <div class="highlight"><pre><span></span><code><span class="gp">$ </span>docker<span class="w"> </span>pull<span class="w"> </span>parrotsec/security:latest
 </code></pre></div>
@@ -173,7 +173,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 </code></pre></div>
 
 <h3>Target container:Metasploitable2</h3>
-<p><img alt="Target" src="https://www.nairobilug.org/images/docker-pentest-lab/Target-pana.svg"></p>
+<p><img alt="Target" src="https://nairobilug.org/images/docker-pentest-lab/Target-pana.svg"></p>
 <p>This is a very vulnerable test machine. It is what I recommend for anyone starting out.</p>
 <p>Open another terminal and pull the metasploitable image. The image is around 500MB.</p>
 <div class="highlight"><pre><span></span><code><span class="gp">$ </span>docker<span class="w"> </span>pull<span class="w"> </span>tleemcjr/metasploitable2
@@ -210,7 +210,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 
 <h4>Guides &amp; Tutorials</h4>
 <p>There are tons of free guides out there on metasploitable. </p>
-<p><img alt="Image of person Studying" src="https://www.nairobilug.org/images/docker-pentest-lab/read.svg"></p>
+<p><img alt="Image of person Studying" src="https://nairobilug.org/images/docker-pentest-lab/read.svg"></p>
 <ol>
 <li><a href="https://www.exploit-db.com/docs/english/44040-the-easiest-metasploit-guide-you%E2%80%99ll-ever-read.pdf">The Easiest Metasploit Guide You’ll Ever Read</a></li>
 <li><a href="https://www.offensive-security.com/metasploit-unleashed/">Metasploit Unleashed</a></li>
@@ -219,11 +219,11 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 </ol>
 <p>If you don't know what guide to use, I recommend <a href="https://metasploit.help.rapid7.com/docs/metasploitable-2-exploitability-guide">this one</a>.</p>
 <h2>More vulnerable containers 🧑‍💻</h2>
-<p><img alt="More Cyber" src="https://www.nairobilug.org/images/docker-pentest-lab/hacker.svg"></p>
+<p><img alt="More Cyber" src="https://nairobilug.org/images/docker-pentest-lab/hacker.svg"></p>
 <p>You can extend the lab with any of these containers depending on your learning goal.</p>
 <h3>OWASP Juiceshop</h3>
 <p>This container focusses on web application security.</p>
-<p><img alt="Juiceshop Logo" src="https://www.nairobilug.org/images/docker-pentest-lab/juiceshop.svg"></p>
+<p><img alt="Juiceshop Logo" src="https://nairobilug.org/images/docker-pentest-lab/juiceshop.svg"></p>
 <p>To create and start the juiceshop container for the first time</p>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span><span class="se">\</span>
 <span class="w">    </span>--name<span class="w"> </span>juiceshop<span class="w"> </span><span class="se">\</span>
@@ -253,7 +253,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 </ul>
 <h4>OWASP Webgoat 🐐</h4>
 <p><a href="(https://owasp.org/www-project-webgoat/)">Webgoat</a> is a ctf-style vulnerable container focused on web application security.</p>
-<p><img alt="goat-svg" src="https://www.nairobilug.org/images/docker-pentest-lab/goat.svg"></p>
+<p><img alt="goat-svg" src="https://nairobilug.org/images/docker-pentest-lab/goat.svg"></p>
 <p>Create and run the container for the first time</p>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w">  </span>-d<span class="w"> </span><span class="se">\</span>
 <span class="w">    </span>--name<span class="w"> </span>webgoat<span class="w"> </span><span class="se">\</span>
@@ -280,7 +280,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 
 <h3>Why I use docker for a pentest lab</h3>
 <p>Two Operating systems make my computer painfully slow. Containers aren't resource-intensive and perform well. This fits my use case.</p>
-<p><img alt="Lab.svg" src="https://www.nairobilug.org/images/docker-pentest-lab/lab.svg"></p>
+<p><img alt="Lab.svg" src="https://nairobilug.org/images/docker-pentest-lab/lab.svg"></p>
 <p>If you have RAM to spare then it's really not that much of a difference. </p>
 <h2>When not to use Docker</h2>
 <p>If you want to run Windows containers from a linux host, you are out of luck. You can run linux containers on Windows though</p>
@@ -314,7 +314,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 <p>You can run a few commands to avoid some errors encountered when running GUI apps</p>
 <h4>Burpsuite</h4>
 <p>Burp Suite is a web app pentesting tool for monitoring http requests and responses.</p>
-<p><img alt="Burpsuite Logo" src="https://www.nairobilug.org/images/docker-pentest-lab/burp.svg"></p>
+<p><img alt="Burpsuite Logo" src="https://nairobilug.org/images/docker-pentest-lab/burp.svg"></p>
 <p>To install and run burpsuite inside the parrot os container.</p>
 <div class="highlight"><pre><span></span><code><span class="gp"># </span>sudo<span class="w"> </span>apt<span class="w"> </span>update
 <span class="gp"># </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>burpsuite
@@ -324,7 +324,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
 <p>You can then point your browser to use <code>10.0.0.2:8080</code> as the proxy and burp will intercept everything</p>
 <h4>Firefox</h4>
 <p>Firefox, is a free and open-source web browser.</p>
-<p><img alt="Firefox Logo" src="https://www.nairobilug.org/images/docker-pentest-lab/firefox.svg"></p>
+<p><img alt="Firefox Logo" src="https://nairobilug.org/images/docker-pentest-lab/firefox.svg"></p>
 <p>To install and run firefox:</p>
 <div class="highlight"><pre><span></span><code><span class="gp">$ </span>apt<span class="w"> </span>install<span class="w"> </span>firefox<span class="w"> </span>ca-certificates<span class="w"> </span>
 </code></pre></div>
@@ -352,7 +352,7 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = 'https://www.nairobilug.org/2020/06/Lightweight lab entirely in Docker without Vmware or VirtualBox.html';
+      this.page.url = 'https://nairobilug.org/2020/06/Lightweight lab entirely in Docker without Vmware or VirtualBox.html';
       this.page.identifier = 'Lightweight lab entirely in Docker without Vmware or VirtualBox';
     };
     (function() {
@@ -373,10 +373,10 @@ Find a complete list <a href="https://en.wikipedia.org/wiki/List_of_Linux_distri
     <div class="container">
 <div class="row">
   <ul class="col-sm-6 list-inline">
-      <li class="list-inline-item"><a href="https://www.nairobilug.org/authors.html">Authors</a></li>
-    <li class="list-inline-item"><a href="https://www.nairobilug.org/archives.html">Archives</a></li>
-    <li class="list-inline-item"><a href="https://www.nairobilug.org/categories.html">Categories</a></li>
-      <li class="list-inline-item"><a href="https://www.nairobilug.org/tags.html">Tags</a></li>
+      <li class="list-inline-item"><a href="https://nairobilug.org/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="https://nairobilug.org/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="https://nairobilug.org/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="https://nairobilug.org/tags.html">Tags</a></li>
   </ul>
   <p class="col-sm-6 text-sm-right text-muted">
     Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
