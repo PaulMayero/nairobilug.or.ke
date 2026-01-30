@@ -8,23 +8,23 @@
 
   <title>  Exploring Anti-DOS Tools for Apache Httpd | Nairobi GNU/Linux Users Group
 </title>
-  <link rel="canonical" href="http://paulmayero.github.io/nairobilug.or.ke/2014/09/exploring-anti-dos-tools-for-apache-httpd.html">
+  <link rel="canonical" href="nairobilug.org/2014/09/exploring-anti-dos-tools-for-apache-httpd.html">
 
-    <link rel="apple-touch-icon" href="http://paulmayero.github.io/nairobilug.or.ke/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" type="image/png" href="http://paulmayero.github.io/nairobilug.or.ke/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://paulmayero.github.io/nairobilug.or.ke/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="http://paulmayero.github.io/nairobilug.or.ke/manifest.json">
+    <link rel="apple-touch-icon" href="nairobilug.org/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="nairobilug.org/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="nairobilug.org/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="nairobilug.org/manifest.json">
     <meta name="theme-color" content="#333333">
 
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/fontawesome.min.css">
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/pygments/monokai.min.css">
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/theme.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/pygments/monokai.min.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/theme.css">
 
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
-        href="http://paulmayero.github.io/nairobilug.or.ke/feeds/all.atom.xml">
+        href="nairobilug.org/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="http://paulmayero.github.io/nairobilug.or.ke/feeds/linux.atom.xml">  
+        href="nairobilug.org/feeds/linux.atom.xml">  
   <meta name="description" content="Analyzing how Apache can be crippled by a DOS tool like Slowloris and a side note on Nginx...">
 
 
@@ -35,24 +35,24 @@
     <div class="container">
 <div class="row">
     <div class="col-sm-4">
-      <a href="http://paulmayero.github.io/nairobilug.or.ke/">
-        <img class="img-fluid rounded" src=http://paulmayero.github.io/nairobilug.or.ke/images/profile.png alt="Nairobi GNU/Linux Users Group">
+      <a href="nairobilug.org/">
+        <img class="img-fluid rounded" src=nairobilug.org/images/profile.png alt="Nairobi GNU/Linux Users Group">
       </a>
     </div>
   <div class="col-sm-8">
-    <h1 class="title"><a href="http://paulmayero.github.io/nairobilug.or.ke/">Nairobi GNU/Linux Users Group</a></h1>
+    <h1 class="title"><a href="nairobilug.org/">Nairobi GNU/Linux Users Group</a></h1>
       <p class="text-muted">A lively community of GNU/Linux enthusiasts</p>
       <ul class="list-inline">
           <li class="list-inline-item"><a href="https://web.libera.chat/?channels=#nairobilug" target="_blank">IRC</a></li>
               <li class="list-inline-item text-muted">|</li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/about-us.html">About Us</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/code-of-conduct.html">Code of Conduct</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/contact.html">Contact</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/mailing-list.html">Mailing List</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/meetups.html">Meetups</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/software.html">Software</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/about-us.html">About Us</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/code-of-conduct.html">Code of Conduct</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/contact.html">Contact</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/mailing-list.html">Mailing List</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/meetups.html">Meetups</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/software.html">Software</a></li>
             <li class=" list-inline-item text-muted">|</li>
-          <li class="list-inline-item"><a class="fas fa-rss" href="http://paulmayero.github.io/nairobilug.or.ke/feeds/all.atom.xml" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="nairobilug.org/nairobilug.org/feeds/all.atom.xml" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/nairobilug" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/nairobilug" target="_blank"></a></li>
       </ul>
@@ -74,14 +74,14 @@
         </li>
         <li class="list-inline-item">
           <i class="fas fa-folder-open"></i>
-          <a href="http://paulmayero.github.io/nairobilug.or.ke/category/linux.html">Linux</a>
+          <a href="nairobilug.org/category/linux.html">Linux</a>
         </li>
           <li class="list-inline-item">
             <i class="fas fa-user"></i>
-              <a href="http://paulmayero.github.io/nairobilug.or.ke/author/john-troon.html">John Troon</a>          </li>
+              <a href="nairobilug.org/author/john-troon.html">John Troon</a>          </li>
           <li class="list-inline-item">
             <i class="fas fa-tag"></i>
-              <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/linux.html">#linux</a>,               <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/security.html">#security</a>,               <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/httpd.html">#httpd</a>,               <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/nginx.html">#nginx</a>          </li>
+              <a href="nairobilug.org/tag/linux.html">#linux</a>,               <a href="nairobilug.org/tag/security.html">#security</a>,               <a href="nairobilug.org/tag/httpd.html">#httpd</a>,               <a href="nairobilug.org/tag/nginx.html">#nginx</a>          </li>
       </ul>
     </header>
     <div class="content">
@@ -92,25 +92,25 @@
 <li>Attacking Machine: 192.168.43.39 (Slowloris "DOSing" the server)</li>
 </ul>
 <p><strong>Apache httpd error logs</strong></p>
-<p><img alt="Error from bad requests" src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/badheader.png" title="Apache error logs"></p>
+<p><img alt="Error from bad requests" src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/badheader.png" title="Apache error logs"></p>
 <p>The loaded module (<em>mod_evasion</em>), can't save Apache httpd from the DOS attack, even loading the site from a browser is somehow impossible.</p>
-<p><img alt="Apache DOSed" src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/apachedown.png" title="Can't access via Browser"></p>
+<p><img alt="Apache DOSed" src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/apachedown.png" title="Can't access via Browser"></p>
 <p>But this module can prevent a brute-force attack (<em>e.g. an automated script to guess a password field in a web-form</em>) in a web server (running Apache httpd).</p>
-<p><img alt="mod_evasion can prevent Brute-force.." src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/bruteforce.png" title="mod_evasion can prevent Brute-force attack"></p>
+<p><img alt="mod_evasion can prevent Brute-force.." src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/bruteforce.png" title="mod_evasion can prevent Brute-force attack"></p>
 <p>Just to make an interesting comparison, I replaced Apache httpd with Nginx on the same Server (192.168.43.221) and <strong>ta! da!..</strong></p>
-<p><img alt="Nginx is not DOSed by Slowloris" src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/nginxup.png" title="Nginx is not DOSed by Slowloris"> Nginx gracefully made it by ignoring the request from Slowloris. But I noticed a brute-force attack is possible while using Nginx default settings! <strong>Nginx access logs</strong>
-<img alt="Nginx Brute-forced" src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/bfnginx.png" title="Nginx can be Brute-forced"></p>
+<p><img alt="Nginx is not DOSed by Slowloris" src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/nginxup.png" title="Nginx is not DOSed by Slowloris"> Nginx gracefully made it by ignoring the request from Slowloris. But I noticed a brute-force attack is possible while using Nginx default settings! <strong>Nginx access logs</strong>
+<img alt="Nginx Brute-forced" src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/bfnginx.png" title="Nginx can be Brute-forced"></p>
 <h2>Second Setup</h2>
 <ul>
 <li>Server: 192.168.43.221 (running Apache httpd with mod_antiloris loaded)</li>
 <li>Attacking Machine: 192.168.43.39 (Sowloris "DOSing" the server)</li>
 </ul>
 <p><em>mod_antiloris</em> played it nice by monitoring the requests coming from the client and rejected extra connections. Accessing the web services from the browser was not interfered.</p>
-<p><img alt="mod_antiloris logs" src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/antiloris.png" title="mod_antiloris logs"></p>
+<p><img alt="mod_antiloris logs" src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/antiloris.png" title="mod_antiloris logs"></p>
 <p><em>mod_evasion</em> is cool but can't save Apache httpd from Slowloris. On the other hand, <em>mod_antiloris</em> worked fine and denied Slowloris a chance to mess up with the Apache httpd server.</p>
 <h2>Explanation</h2>
 <p><strong>Putting the Lens on the Logs...</strong> (Apache httpd access log)</p>
-<p><img alt="Apache-httpd access log" src="http://paulmayero.github.io/nairobilug.or.ke/images/exploring-anti-dos-tools-for-apache-httpd/accesslog.png" title="Apache httpd access logs"></p>
+<p><img alt="Apache-httpd access log" src="nairobilug.org/images/exploring-anti-dos-tools-for-apache-httpd/accesslog.png" title="Apache httpd access logs"></p>
 <p><em>Why did mod_antiloris pass the test and mod_evasion fail?..</em> <em>Why did Slowloris work on Apache httpd and not on Nginx?</em></p>
 <p>Apache httpd waits for a <strong>complete HTTP request header</strong> to be received, this makes it good to serve web-content even in slow connections. So, by default, the timeout value is 300 seconds and it's reset each time the client sends more packets. Slowloris takes advantage by sending incomplete HTTP request headers and maintains the connection by sending more incomplete request headers resetting the time-out counter.</p>
 <p>Slowloris is written in Perl, it simply plays around with <strong>CR (Carriage Return)</strong> and <strong>LF (Line Feed)</strong> at the end of every incomplete HTTP request header. A blank line after the request header is used to represent the completion of the header in HTTP. Since the request is incomplete and the timeout is 300 seconds, Apache httpd will keep the connection alive waiting for the remaining data, while Slowloris keeps on sending the incomplete HTTP requests resetting the timeout counter.</p>
@@ -127,7 +127,7 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = 'http://paulmayero.github.io/nairobilug.or.ke/2014/09/exploring-anti-dos-tools-for-apache-httpd.html';
+      this.page.url = 'nairobilug.org/2014/09/exploring-anti-dos-tools-for-apache-httpd.html';
       this.page.identifier = 'exploring-anti-dos-tools-for-apache-httpd';
     };
     (function() {
@@ -148,10 +148,10 @@
     <div class="container">
 <div class="row">
   <ul class="col-sm-6 list-inline">
-      <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/authors.html">Authors</a></li>
-    <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/archives.html">Archives</a></li>
-    <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/categories.html">Categories</a></li>
-      <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/tags.html">Tags</a></li>
+      <li class="list-inline-item"><a href="nairobilug.org/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="nairobilug.org/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="nairobilug.org/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="nairobilug.org/tags.html">Tags</a></li>
   </ul>
   <p class="col-sm-6 text-sm-right text-muted">
     Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>

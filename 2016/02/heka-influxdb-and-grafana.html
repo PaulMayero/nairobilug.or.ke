@@ -8,23 +8,23 @@
 
   <title>  Heka, InfluxDB, and Grafana | Nairobi GNU/Linux Users Group
 </title>
-  <link rel="canonical" href="http://paulmayero.github.io/nairobilug.or.ke/2016/02/heka-influxdb-and-grafana.html">
+  <link rel="canonical" href="nairobilug.org/2016/02/heka-influxdb-and-grafana.html">
 
-    <link rel="apple-touch-icon" href="http://paulmayero.github.io/nairobilug.or.ke/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" type="image/png" href="http://paulmayero.github.io/nairobilug.or.ke/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://paulmayero.github.io/nairobilug.or.ke/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="http://paulmayero.github.io/nairobilug.or.ke/manifest.json">
+    <link rel="apple-touch-icon" href="nairobilug.org/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="nairobilug.org/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="nairobilug.org/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="nairobilug.org/manifest.json">
     <meta name="theme-color" content="#333333">
 
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/fontawesome.min.css">
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/pygments/monokai.min.css">
-  <link rel="stylesheet" href="http://paulmayero.github.io/nairobilug.or.ke/theme/css/theme.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/fontawesome.min.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/pygments/monokai.min.css">
+  <link rel="stylesheet" href="nairobilug.org/theme/css/theme.css">
 
   <link rel="alternate" type="application/atom+xml" title="Full Atom Feed"
-        href="http://paulmayero.github.io/nairobilug.or.ke/feeds/all.atom.xml">
+        href="nairobilug.org/feeds/all.atom.xml">
   <link rel="alternate" type="application/atom+xml" title="Categories Atom Feed"
-        href="http://paulmayero.github.io/nairobilug.or.ke/feeds/linux.atom.xml">  
+        href="nairobilug.org/feeds/linux.atom.xml">  
   <meta name="description" content="My experience configuring Heka, InfluxDB, and Grafana for monitoring logs and live server stats.">
 
 
@@ -35,24 +35,24 @@
     <div class="container">
 <div class="row">
     <div class="col-sm-4">
-      <a href="http://paulmayero.github.io/nairobilug.or.ke/">
-        <img class="img-fluid rounded" src=http://paulmayero.github.io/nairobilug.or.ke/images/profile.png alt="Nairobi GNU/Linux Users Group">
+      <a href="nairobilug.org/">
+        <img class="img-fluid rounded" src=nairobilug.org/images/profile.png alt="Nairobi GNU/Linux Users Group">
       </a>
     </div>
   <div class="col-sm-8">
-    <h1 class="title"><a href="http://paulmayero.github.io/nairobilug.or.ke/">Nairobi GNU/Linux Users Group</a></h1>
+    <h1 class="title"><a href="nairobilug.org/">Nairobi GNU/Linux Users Group</a></h1>
       <p class="text-muted">A lively community of GNU/Linux enthusiasts</p>
       <ul class="list-inline">
           <li class="list-inline-item"><a href="https://web.libera.chat/?channels=#nairobilug" target="_blank">IRC</a></li>
               <li class="list-inline-item text-muted">|</li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/about-us.html">About Us</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/code-of-conduct.html">Code of Conduct</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/contact.html">Contact</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/mailing-list.html">Mailing List</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/meetups.html">Meetups</a></li>
-            <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/pages/software.html">Software</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/about-us.html">About Us</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/code-of-conduct.html">Code of Conduct</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/contact.html">Contact</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/mailing-list.html">Mailing List</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/meetups.html">Meetups</a></li>
+            <li class="list-inline-item"><a href="nairobilug.org/pages/software.html">Software</a></li>
             <li class=" list-inline-item text-muted">|</li>
-          <li class="list-inline-item"><a class="fas fa-rss" href="http://paulmayero.github.io/nairobilug.or.ke/feeds/all.atom.xml" target="_blank"></a></li>
+          <li class="list-inline-item"><a class="fas fa-rss" href="nairobilug.org/nairobilug.org/feeds/all.atom.xml" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/nairobilug" target="_blank"></a></li>
           <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/nairobilug" target="_blank"></a></li>
       </ul>
@@ -74,14 +74,14 @@
         </li>
         <li class="list-inline-item">
           <i class="fas fa-folder-open"></i>
-          <a href="http://paulmayero.github.io/nairobilug.or.ke/category/linux.html">Linux</a>
+          <a href="nairobilug.org/category/linux.html">Linux</a>
         </li>
           <li class="list-inline-item">
             <i class="fas fa-user"></i>
-              <a href="http://paulmayero.github.io/nairobilug.or.ke/author/jason-rogena.html">Jason Rogena</a>          </li>
+              <a href="nairobilug.org/author/jason-rogena.html">Jason Rogena</a>          </li>
           <li class="list-inline-item">
             <i class="fas fa-tag"></i>
-              <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/linux.html">#linux</a>,               <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/heka.html">#heka</a>,               <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/influxdb.html">#influxdb</a>,               <a href="http://paulmayero.github.io/nairobilug.or.ke/tag/grafana.html">#grafana</a>          </li>
+              <a href="nairobilug.org/tag/linux.html">#linux</a>,               <a href="nairobilug.org/tag/heka.html">#heka</a>,               <a href="nairobilug.org/tag/influxdb.html">#influxdb</a>,               <a href="nairobilug.org/tag/grafana.html">#grafana</a>          </li>
       </ul>
     </header>
     <div class="content">
@@ -187,7 +187,7 @@ I initially set the <strong>message_matcher</strong> field to "TRUE" so that non
 <li>InfluxDB isn't using a lot of disk space. The database storing HTTP status codes is 900K on the disk, one month on.</li>
 <li>The graphs on Grafana look sexy. Here's a screenshot of the graphs on HTTP status codes:</li>
 </ul>
-<p><img alt="Image showing HTTP status codes on Grafana" src="http://paulmayero.github.io/nairobilug.or.ke/images/heka-influxdb-and-grafana/heka-influxdb-and-grafana.png"></p>
+<p><img alt="Image showing HTTP status codes on Grafana" src="nairobilug.org/images/heka-influxdb-and-grafana/heka-influxdb-and-grafana.png"></p>
 <p>This was <a href="https://jasonrogena.github.io/2016/01/02/heka-influxdb-and-grafana.html">originally posted</a> on my personal blog; re-posting here for posterity.</p>
     </div>
   </article>
@@ -195,7 +195,7 @@ I initially set the <strong>message_matcher</strong> field to "TRUE" so that non
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function() {
-      this.page.url = 'http://paulmayero.github.io/nairobilug.or.ke/2016/02/heka-influxdb-and-grafana.html';
+      this.page.url = 'nairobilug.org/2016/02/heka-influxdb-and-grafana.html';
       this.page.identifier = 'heka-influxdb-and-grafana';
     };
     (function() {
@@ -216,10 +216,10 @@ I initially set the <strong>message_matcher</strong> field to "TRUE" so that non
     <div class="container">
 <div class="row">
   <ul class="col-sm-6 list-inline">
-      <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/authors.html">Authors</a></li>
-    <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/archives.html">Archives</a></li>
-    <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/categories.html">Categories</a></li>
-      <li class="list-inline-item"><a href="http://paulmayero.github.io/nairobilug.or.ke/tags.html">Tags</a></li>
+      <li class="list-inline-item"><a href="nairobilug.org/authors.html">Authors</a></li>
+    <li class="list-inline-item"><a href="nairobilug.org/archives.html">Archives</a></li>
+    <li class="list-inline-item"><a href="nairobilug.org/categories.html">Categories</a></li>
+      <li class="list-inline-item"><a href="nairobilug.org/tags.html">Tags</a></li>
   </ul>
   <p class="col-sm-6 text-sm-right text-muted">
     Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a>
