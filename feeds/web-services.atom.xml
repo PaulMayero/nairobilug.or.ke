@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nairobi GNU/Linux Users Group - Web Services</title><link href="https://nairobi.lug.or.ke/" rel="alternate"/><link href="https://nairobi.lug.or.ke/feeds/web-services.atom.xml" rel="self"/><id>https://nairobi.lug.or.ke/</id><updated>2022-10-11T00:00:00+03:00</updated><subtitle>A lively community of GNU/Linux enthusiasts</subtitle><entry><title>Kenyan Internet Hosting Providers</title><link href="https://nairobi.lug.or.ke/2022/10/listing-cloud-providers.html" rel="alternate"/><published>2022-10-11T00:00:00+03:00</published><updated>2022-10-11T00:00:00+03:00</updated><author><name>Benson Muite</name></author><id>tag:nairobi.lug.or.ke,2022-10-11:/2022/10/listing-cloud-providers.html</id><summary type="html">&lt;p&gt;A summary of hosting providers in Kenya&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Kenyan Internet Hosting Providers&lt;/h1&gt;
+&lt;p&gt;When setting up a website or webservices, data centers close to your main
+audience can give a speed advantage. Data regulations may also require you
+to host your data in particular locations. It can therefore be of interest
+to have some idea of local hosting providers. Some of the hosting providers
+in Kenya are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://afriqnetworks.co.ke/"&gt;AfriQ Network Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.angani.co/"&gt;Angani&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://atlancis.com/"&gt;Atlancis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chinatelecomglobal.com"&gt;China Telcom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cloudpap.com"&gt;CloudPAP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.eacdirectory.co.ke"&gt;EACdirectory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.garanntor.co.ke/"&gt;Garanntor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.hostpinnacle.co.ke/"&gt;Host Pinnacle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hostpoa.co.ke"&gt;HostPoa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hostnali.com/"&gt;Hostnali&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.icolo.io/"&gt;Icolo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kenyawebexperts.com/"&gt;Kenya Web Experts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://liquid.tech"&gt;Liquid Telcom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mambo.co.ke/"&gt;Mambo Microsystems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.movetechsolutions.com/"&gt;Movetechsolutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://node.africa/"&gt;Node Africa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.safaricom.co.ke/business/corporate/cloud-and-hosting-services/website-and-email-services"&gt;Safaricom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sasahost.co.ke/"&gt;Sasa Host&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://servernah.com/"&gt;Servernah&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://telkom.co.ke/cloud-solutions"&gt;Telkom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.truehost.co.ke/servers-vps-in-kenya/"&gt;Truehost&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web4africa.co.ke"&gt;Web4africa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.webhostkenya.co.ke/"&gt;Webhost Kenya&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Web Services"/><category term="VPS servers"/><category term="Kenya"/></entry></feed>
