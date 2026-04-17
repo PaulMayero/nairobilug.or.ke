@@ -8,7 +8,7 @@ Summary: Third meetup: 5.5 to 15 to 62 and soon infinity & beyond!
 
 Our third meetup of the year was on the 4<sup>th</sup> of April 2026 at Marble Arch Hotel. I cannot help but look back to the previous two meetups and feel a tad excited about the growth of the community. People streamed in as early as 2:30pm and we recorded a new high of 62 people.This is worth celebrating as at the beginning we only had [5.5 people ](https://nairobilug.org/2026/02/meetup-february-2026.html) show up and 15 attendees on the [second meetup of the year](https://nairobilug.org/2026/03/meetup-march-2026-learning-to-contribute-to-open-source.html).
 
-The energy in the room was amazing. The meetup was led by the amazing Faith Uniter and Cornellieus Emase. We had four eager speakers ready to present on a variety of topics. However, as a community that values full engagement and meaningful participation, we had two of them take the stage. Hopefully the other two will take to the stage during the next meetup.
+The energy in the room was amazing. The meetup was led by the amazing Faith Uniter and Cornelius Emase. We had four eager speakers ready to present on a variety of topics. However, as a community that values full engagement and meaningful participation, we had two of them take the stage. Hopefully the other two will take to the stage during the next meetup.
 
 [![April-meetup-poster.jpg](https://i.postimg.cc/KY3CY3TD/April-meetup-poster.jpg)](https://postimg.cc/TyGt7wCK)
 
@@ -22,7 +22,7 @@ Derrick on the other hand explored PostgreSQL as more than just a database but a
 
 Another exciting milestone for us was having the talks recorded, for posterity and showing new  speakers what visibility could do for them. This is a big step forward in capturing our journey, preserving key moments, and sharing the experience with those who couldn’t make it. 
 
- After unsuccessful attempts to recover our previous pages, we made the bold decision to start a new YouTube channel. Rather than blurb about the speakers I would love for you to get hear it from the horses own mouth right over at the [Youtube channel](https://www.youtube.com/playlist?list=PLUTTYeNlM5pxBpIuQNImNg7mx5zNsycVH)
+ After unsuccessful attempts to recover our previous pages, we made the bold decision to start a new YouTube channel. Rather than blurb about the speakers I would love for you to get hear it from the horses own mouth right over at the [YouTube channel](https://www.youtube.com/playlist?list=PLUTTYeNlM5pxBpIuQNImNg7mx5zNsycVH)
 
 And now, in true influencer fashion don’t forget to watch, subscribe and drop a comment! Let’s keep growing this amazing community together.
 
