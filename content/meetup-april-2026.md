@@ -6,7 +6,7 @@ Slug: meetup-april-2026
 Authors: _@Afterthesegfault_  
 Summary: Third meetup: 5.5 to 15 to 62 and soon infinity & beyond!
 
-Our third meetup of the year was on the 4<sup>th</sup> of April 2026 at Marble Arch Hotel. I cannot help but look back to the previous two meetups and feel a tad excited about the growth of the community. People streamed in as early as 2:30pm and we recorded a new high of 62 people.This is worth celebrating as at the beginning we only had [5.5 people ](https://nairobilug.org/2026/02/meetup-february-2026.html) show up and 15 attendees on the [second meetup of the year](https://nairobilug.org/2026/03/meetup-march-2026-learning-to-contribute-to-open-source.html).
+Our third meetup of the year was on the 4<sup>th</sup> of April 2026 at Marble Arch Hotel. I cannot help but look back to the previous two meetups and feel a tad excited about the growth of the community. People streamed in as early as 2:30pm and we recorded a new high of 62 people.This is worth celebrating as at the beginning we only had [5.5 people](https://nairobilug.org/2026/02/meetup-february-2026.html) show up and 15 attendees on the [second meetup of the year](https://nairobilug.org/2026/03/meetup-march-2026-learning-to-contribute-to-open-source.html).
 
 The energy in the room was amazing. The meetup was led by the amazing Faith Uniter and Cornelius Emase. We had four eager speakers ready to present on a variety of topics. However, as a community that values full engagement and meaningful participation, we had two of them take the stage. Hopefully the other two will take to the stage during the next meetup.
 
