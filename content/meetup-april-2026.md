@@ -10,9 +10,9 @@ Our third meetup of the year was on the 4<sup>th</sup> of April 2026 at Marble A
 
 The energy in the room was amazing. The meetup was led by the amazing Faith Uniter and Cornelius Emase. We had four eager speakers ready to present on a variety of topics. However, as a community that values full engagement and meaningful participation, we had two of them take the stage. Hopefully the other two will take to the stage during the next meetup.
 
-[![April-meetup-poster.jpg](https://i.postimg.cc/KY3CY3TD/April-meetup-poster.jpg)](https://postimg.cc/TyGt7wCK)
+[![April-meetup-poster.jpg]({static}/images/meetup-march-2026/April-meetup-poster.jpg "April meetup Poster")
 
-### Bash Scripting and Architecture of DBMS(PostGres)
+### Bash Scripting and Architecture of DBMS(Postgres)
 
 Representing the diverse interests that spark curiosity and joy within the group, [Steve Nyasimi](https://medium.com/@stevenyasimi01/about) a final year student at Mount Kenya University and [Derrick Munyiri](https://www.linkedin.com/in/derrick-munyiri-aa949622a/) a PostGreSQL enthusiast delivered engaging and insightful sessions. A first for the both of them, and a milestone for the community whose vision is to give contributors a stage to showcase their open-source contributions and new discoveries.
 
@@ -30,12 +30,11 @@ And now, in true influencer fashion don’t forget to watch, subscribe and drop 
 
 In true Kenyan nature, we had *chai* and *mandazi* for the networking session. People mingled and the excited little me went around collecting insights on the meetup and the future of the community. All I can say is grab onto your seats for we have a great load ahead for folks.
 
-[![April-meetup-Networking.jpg](https://i.postimg.cc/Bn4vHspW/April-meetup-Networking.jpg)](https://postimg.cc/HVvH1qF3)
+[![April-meetup-Networking.jpg]({static}/images/meetup-march-2026/April-meetup-Networking.jpg "People networking over a cup of tea")
 
 To commemorate the meetup, we took a group photo. And I cannot help but wonder how amazing this great community will be.
 
-[![April-Meetup-Groupphoto2.jpg](https://i.postimg.cc/nLfCdBnC/April-Meetup-Groupphoto2.jpg)](https://postimg.cc/9D1m04Rh)
-
+[![April-Meetup-Groupphoto2.jpg]({static}/images/meetup-march-2026/April-Meetup-Groupphoto2.jpg "Group photo meetup")
 
 ### May Meetup
 
