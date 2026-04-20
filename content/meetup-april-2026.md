@@ -10,11 +10,11 @@ Our third meetup of the year was on the 4<sup>th</sup> of April 2026 at Marble A
 
 The energy in the room was amazing. The meetup was led by the amazing Faith Uniter and Cornelius Emase. We had four eager speakers ready to present on a variety of topics. However, as a community that values full engagement and meaningful participation, we had two of them take the stage. Hopefully the other two will take to the stage during the next meetup.
 
-![April-meetup-poster.jpg]({static}/images/meetup-march-2026/April-meetup-poster.jpg "April meetup Poster")
+![April-meetup-poster.jpg]({static}/images/meetup-march-2026/April-meetup-poster.jpg "April meetup Poster"){: .image-process-large-photo}
 
 ### Bash Scripting and Architecture of DBMS(Postgres)
 
-Representing the diverse interests that spark curiosity and joy within the group, [Steve Nyasimi](https://medium.com/@stevenyasimi01/about) a final year student at Mount Kenya University and [Derrick Munyiri](https://www.linkedin.com/in/derrick-munyiri-aa949622a/) a PostGreSQL enthusiast delivered engaging and insightful sessions. A first for the both of them, and a milestone for the community whose vision is to give contributors a stage to showcase their open-source contributions and new discoveries.
+Representing the diverse interests that spark curiosity and joy within the group, [Steve Nyasimi](https://www.linkedin.com/in/steve-solomon-39ab72248/) a final year student at Mount Kenya University and [Derrick Munyiri](https://www.linkedin.com/in/derrick-munyiri-aa949622a/) a PostGreSQL enthusiast delivered engaging and insightful sessions. A first for the both of them, and a milestone for the community whose vision is to give contributors a stage to showcase their open-source contributions and new discoveries.
 
 Steve demonstrated how simple command-line scripts can automate everyday tasks. He walked the audience through the basics of writing a script, including using variables, handling user input and running conditional statements. By showcasing a few practical examples, Steve illustrated how Bash scripting can save time and improve efficiency, especially for repetitive system tasks. The session was engaging and informative, giving attendees a clear introduction to the power and usefulness of shell scripting. As Jono Bacon loves to say, "*Community is not just about what you create,but what you enable others to create*". In light of that you can learn more about Bash Scripting from what Steve has shared on his blogpost.
 
@@ -22,7 +22,14 @@ Derrick on the other hand explored PostgreSQL as more than just a database but a
 
 Another exciting milestone for us was having the talks recorded, for posterity and showing new  speakers what visibility could do for them. This is a big step forward in capturing our journey, preserving key moments, and sharing the experience with those who couldn’t make it. 
 
- After unsuccessful attempts to recover our previous pages, we made the bold decision to start a new YouTube channel. Rather than blurb about the speakers I would love for you to get hear it from the horses own mouth right over at the [YouTube channel](https://www.youtube.com/playlist?list=PLUTTYeNlM5pxBpIuQNImNg7mx5zNsycVH)
+After unsuccessful attempts to recover our previous pages, we made the bold decision to start a new YouTube channel. Rather than blurb about the speakers I would love for you to get hear it from the horses own mouth right over at the [YouTube channel](https://www.youtube.com/playlist?list=PLUTTYeNlM5pxBpIuQNImNg7mx5zNsycVH)
+
+Or better yet, check out their videos below!
+
+https://www.youtube.com/watch?v=pnJjpfuYhm4&t
+
+
+https://www.youtube.com/watch?v=8XLRnMF_wY8&t
 
 And now, in true influencer fashion don’t forget to watch, subscribe and drop a comment! Let’s keep growing this amazing community together.
 
@@ -30,11 +37,11 @@ And now, in true influencer fashion don’t forget to watch, subscribe and drop 
 
 In true Kenyan nature, we had *chai* and *mandazi* for the networking session. People mingled and the excited little me went around collecting insights on the meetup and the future of the community. All I can say is grab onto your seats for we have a great load ahead for folks.
 
-![April-meetup-Networking.jpg]({static}/images/meetup-march-2026/April-meetup-Networking.jpg "People networking over a cup of tea")
+![April-meetup-Networking.jpg]({static}/images/meetup-march-2026/April-meetup-Networking.jpg "People networking over a cup of tea"){: .image-process-large-photo}
 
 To commemorate the meetup, we took a group photo. And I cannot help but wonder how amazing this great community will be.
 
-![April-Meetup-Groupphoto2.jpg]({static}/images/meetup-march-2026/April-Meetup-Groupphoto2.jpg "Group photo meetup")
+![April-Meetup-Groupphoto2.jpg]({static}/images/meetup-march-2026/April-Meetup-Groupphoto2.jpg "Group photo meetup"){: .image-process-large-photo}
 
 ### May Meetup
 
