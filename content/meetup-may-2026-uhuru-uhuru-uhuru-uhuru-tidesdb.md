@@ -21,6 +21,8 @@ Benson Muite started his session by speaking about free software as defined by t
 - The freedom to redistribute copies so you can help others (freedom 2 / uhuru 2).
 - The freedom to distribute copies of your modified versions to others (freedom 3 / uhuru 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
 
+Participants shared free applications that they regularly use.  They also discussed restrictions to freedom on some cloud software as a service platforms.
+
 Benson then took us through how we could set up our own streaming service using [Music Player Daemon (MPD)](https://www.musicpd.org/). MPD is a powerful application that runs on Linux. It can play a wide variety of sound files while being controlled through the network. 
 
 Read how one can set up and use MPD as written by Benson [here](/2026/05/music-streaming-mpd-snapcast.html).
