@@ -23,7 +23,7 @@ Benson Muite started his session by speaking about free software as defined by t
 
 Participants shared free applications that they regularly use.  They also discussed restrictions to freedom on some cloud software as a service platforms.
 
-Benson then took us through how we could set up our own streaming service using [Music Player Daemon (MPD)](https://www.musicpd.org/). MPD is a powerful application that runs on Linux. It can play a wide variety of sound files while being controlled through the network. 
+Benson then did a demo of using [Music Player Daemon (MPD)](https://www.musicpd.org/) as a local streaming service. MPD is a powerful application that runs on Linux and Android. It can play a wide variety of sound files while being controlled through the network. Attendees tried to control MPD using [M.A.L.P.](https://f-droid.org/en/packages/org.gateshipone.malp/) from their phones, but only a few could control and hear sound simultaneously with the setup provided.
 
 Read how one can set up and use MPD as written by Benson [here](/2026/05/music-streaming-mpd-snapcast.html).
 
