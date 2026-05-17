@@ -49,7 +49,7 @@ I thank Benson, Gravine and Daniel for taking the time to prepare for their sess
 
 Shout-out to Douglas for always delivering on the posters. I'm already looking forward to the next one.
 
-Shout-out to Hesus for taking the picturs and videos. Your services are always appreciated.
+Shout-out to Hesus for taking the pictures and videos. Your services are always appreciated.
 
 I'd also like to thank the attendeess for taking time out of their busy schedules to come to the meet-up. I hope you learnt something new and I'm looking forward to seeing you next time.
 
