@@ -1,7 +1,7 @@
 Title: Uhuru, TidesDB  and you, walk into Marble Arch Hotel
 Date: 2026-05-02 15:00
 Category: meetups
-Tags: meetups, meetup, open-source, NaiLUG, tidesDB, uhuru, mcp, fdroid, fsf, free, software
+Tags: meetups, meetup, open-source, NaiLUG, tidesDB, uhuru, mpd, music, fdroid, fsf, free, software
 Slug: meetup-may-2026-uhuru-meets-mpd-meets-tidesdb-in-downtown-nairobi
 Authors: Paul Mayero
 Summary: You X Uhuru X MPD X Tidesdb X TCP
