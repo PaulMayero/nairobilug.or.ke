@@ -1,4 +1,4 @@
-Title: Uhuru, TidesDB  and you walk into Marble Arch Hotel
+Title: Uhuru, TidesDB  and you, walk into Marble Arch Hotel
 Date: 2026-05-02 15:00
 Category: meetups
 Tags: meetups, meetup, open-source, NaiLUG, tidesDB, uhuru, mcp, fdroid, fsf, free, software
@@ -21,14 +21,42 @@ Benson Muite started his session by speaking about free software as defined by t
 - The freedom to redistribute copies so you can help others (freedom 2 / uhuru 2).
 - The freedom to distribute copies of your modified versions to others (freedom 3 / uhuru 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
 
-TODO: write about setting up an  MPD server here
+Benson then took us through how we could set up our own streaming service using [Music Player Daemon (MPD)](https://www.musicpd.org/). MPD is a powerful application that runs on Linux. It can play a wide variety of sound files while being controlled through the network. 
+
+Read how one can set up and use MPD here.
 
 ### Optimized DBMS with TidesDB
 
-[Bala Grivine](https://ke.linkedin.com/in/bala-grivine-627472365), an open-source contributor to [TidesDB](https://tidesdb.com/), gave us a deep dive into TidesDB. He shared what TidesDB is, what it does and how it compares against and to other DBMS systems. He also mentioned how he fixed the WAL hole problem that he found in TidesDB and it got merged upstream. You can find more more in depth infomation about it when you read about the [WAL hole problem](https://balagrivine.github.io/posts/the-wal-hole-problem/) on his blog.
+[Bala Grivine](https://ke.linkedin.com/in/bala-grivine-627472365), an open-source contributor to [TidesDB](https://tidesdb.com/) and a first-time speaker, gave us a deep dive into TidesDB - a high-perfomrance pluggable storage engine that is used for applications that write a lot of data to the database. He shared what TidesDB is, what it does and how it compares against and to other DBMS systems. He also mentioned how he fixed the WAL hole problem that he found in TidesDB and it got merged upstream. Yay! You can find more in depth infomation about it when you read about the [WAL hole problem](https://balagrivine.github.io/posts/the-wal-hole-problem/) on his blog.
 
-Listen in to Bala's presentation by watching the video below. 
+Watch Grivine's talk below. 
 
 https://youtu.be/xb9fsBoWpEs?si=9-wswZqn1GSGXj9n
 
-Please don’t forget to watch, subscribe and comment!
+Subscribe and comment!
+
+### Food, networking and stuff
+
+The attendees brought snacks and we shared it amongst ourselves. Check out the photos below.
+
+![May-meetup-group-photo.jpg]({static}/images/meetup-may-2026/may-meetup-group-photo.jpg "May meetup group photo"){: .image-process-large-photo}
+
+### Acknowledgements
+
+I thank Benson, Gravine and Daniel for taking the time to prepare for their sessions.
+
+Shout-out to Douglas for always delivering on the posters. I'm already looking forward to the next one.
+
+Shout-out to Hesus for taking the picturs and videos. Your services are always appreciated.
+
+I'd also like to thank the attendeess for taking time out of their busy schedules to come to the meet-up. I hope you learnt something new and I'm looking forward to seeing you next time.
+
+And you dear reader, thank you for reading this report. If you weren't able to make it to this meet-up, know that you are welcome to the next one.
+
+### June Meetup
+
+Remember, we meet on the first Saturday of the month. See you on the 6<sup>th</sup> of June at 1500 EAT.
+
+Details of the location will be shared before the meet-up date. Keep on eye on this post for that piece of information.
+
+I hope to catch you on the day!
