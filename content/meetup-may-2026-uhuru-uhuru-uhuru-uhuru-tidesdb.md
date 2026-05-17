@@ -45,7 +45,7 @@ The attendees brought snacks and we shared it amongst ourselves. Check out the p
 
 ### Acknowledgements
 
-I thank Benson, Gravine and Daniel for taking the time to prepare for their sessions.
+I thank Benson, Grivine and Daniel for taking the time to prepare for their sessions.
 
 Shout-out to Douglas for always delivering on the posters. I'm already looking forward to the next one.
 
