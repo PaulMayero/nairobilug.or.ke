@@ -1,4 +1,4 @@
-Title: Uhuru, TidesDB  and you, walk into Marble Arch Hotel
+Title: Uhuru, TidesDB and you walk into Marble Arch Hotel...
 Date: 2026-05-02 15:00
 Category: meetups
 Tags: meetups, meetup, open-source, NaiLUG, tidesDB, uhuru, mpd, music, fdroid, fsf, free, software
